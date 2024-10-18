@@ -20,14 +20,12 @@ PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
 PRODUCT_MODEL := LE2101
 
-PRODUCT_SYSTEM_NAME := OnePlus9R
-PRODUCT_SYSTEM_DEVICE := OnePlus9R
-
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="OnePlus9R_IND-user 14 UKQ1.230924.001 R.186814e_3fcd-4c58 release-keys" \
-    TARGET_DEVICE=$(PRODUCT_SYSTEM_DEVICE) \
-    TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
-
-BUILD_FINGERPRINT := OnePlus/OnePlus9R_IND/OnePlus9R:14/UKQ1.230924.001/R.186814e_3fcd-4c58:user/release-keys
+    DeviceName=OnePlus9R \
+    DeviceProduct=OnePlus9R \
+    SystemName=OnePlus9R \
+    SystemDevice=OnePlus9R \
+    BuildDesc="OnePlus9R_IND-user 14 UKQ1.230924.001 R.186814e_3fcd-4c58 release-keys" \
+    BuildFingerprint=OnePlus/OnePlus9R_IND/OnePlus9R:14/UKQ1.230924.001/R.186814e_3fcd-4c58:user/release-keys
